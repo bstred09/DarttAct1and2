@@ -1,0 +1,9 @@
+void main() {
+dynamic name = "Alice";
+name = 25;
+print("Welcome $name!");
+
+// Since Step 3 wasn’t included, you could explore:
+// Declaring your own custom types with class.
+// Using var versus dynamic.
+// Adding type safety with final or const.
