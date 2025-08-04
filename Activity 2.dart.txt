@@ -1,9 +1,7 @@
 void main() {
-  // Call the function for a rectangle
   int rectanglePerimeter = calculatePerimeter(10, 5);
   print("Perimeter of rectangle: $rectanglePerimeter");
 
-  // Call the function for a square
   int squarePerimeter = calculatePerimeter(7, 0, isSquare: true);
   print("Perimeter of square: $squarePerimeter");
 }
